@@ -351,7 +351,7 @@ app.get('/api/makes/search', async (req, res) => {
 
 Acura · Alfa Romeo · Aston Martin · Audi · Bentley · BMW · Bugatti · Buick · Cadillac · Chevrolet · Chrysler · Citroën · Dacia · Dodge · Ferrari · Fiat · Ford · Genesis · GMC · Honda · Hyundai · Infiniti · Jaguar · Jeep · Kia · Lamborghini · Land Rover · Lexus · Lincoln · Lotus · Maserati · Mazda · McLaren · Mercedes-Benz · MINI · Mitsubishi · Nissan · Pagani · Peugeot · Porsche · RAM · Renault · Rivian · Rolls-Royce · SEAT · ŠKODA · Subaru · Suzuki · Tesla · Toyota · Volkswagen · Volvo · and 370+ more...
 
-→ Full brand list at [motomarks.io/docs/brands](https://motomarks.io/docs/brands)
+→ Search the full brand list at [motomarks.io/browse](https://motomarks.io/browse)
 
 ---
 
