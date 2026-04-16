@@ -1,0 +1,59 @@
+{
+  "name": "motomarks-js",
+  "version": "1.0.0",
+  "description": "Lightweight JavaScript/TypeScript client for the Motomarks automotive logo API — 420+ brands, 3 formats, 6 sizes, CDN-delivered.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && tsc --module esnext --outDir dist/esm && node scripts/build-esm.js",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "motomarks",
+    "automotive",
+    "car",
+    "logo",
+    "api",
+    "vehicle",
+    "brand",
+    "image",
+    "cdn",
+    "typescript"
+  ],
+  "author": "Motomarks",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/motomarks/motomarks-js.git"
+  },
+  "homepage": "https://motomarks.io",
+  "bugs": {
+    "url": "https://github.com/motomarks/motomarks-js/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  }
+}
